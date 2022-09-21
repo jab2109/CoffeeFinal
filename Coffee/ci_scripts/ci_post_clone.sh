@@ -33,4 +33,4 @@
 # THE SOFTWARE.
 
 brew install swiftlint
-swiftlint --no-cache --config com.raywenderlich.swiftlint.yml
+swiftlint --config com.raywenderlich.swiftlint.yml $CI_WORKSPACE
