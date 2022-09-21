@@ -33,3 +33,4 @@
 # THE SOFTWARE.
 
 brew install swiftlint
+swiftlint --strict $CI_WORKSPACE
