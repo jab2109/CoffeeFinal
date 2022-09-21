@@ -38,7 +38,6 @@ struct CoffeesView: View {
   @State var isAddingCoffee: Bool = false
   @State var coffeeToEdit: Coffee = CoffeeViewModel.newCoffee
 
-  
   var coffees: [Coffee] {
     model.coffees
   }
